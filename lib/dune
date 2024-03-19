@@ -2,5 +2,5 @@
  (name wasmer)
  (public_name wasmer)
  (libraries ctypes ctypes.foreign)
- (library_flags ("-cclib" "-Wl,-rpath,%{env:HOME=none}/.wasmer/lib" "-cclib" "-Wl,--no-as-needed" "-cclib" "%{env:HOME=none}/.wasmer/lib/libwasmer.so" "-cclib" "-Wl,--as-needed"))
+ (library_flags ("-cclib" "-Wl,-rpath,%{env:HOME=none}/.wasmer/lib" "-cclib" "-Wl,--no-as-needed" "-cclib" "%{env:HOME=none}/.wasmer/lib/libwasmer.so"))
  (flags -w -27-32))
